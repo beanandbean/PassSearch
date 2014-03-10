@@ -24,3 +24,5 @@ bin
 
 # default project workspace
 project.xcworkspace
+
+DerivedData/

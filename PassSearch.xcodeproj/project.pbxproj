@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C10F7B818C37F5C00091A79 /* Edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C10F7B618C37F5C00091A79 /* Edit.png */; };
+		2C10F7B918C37F5C00091A79 /* Edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C10F7B718C37F5C00091A79 /* Edit@2x.png */; };
+		2C10F7C318C3918E00091A79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C10F7C218C3918E00091A79 /* Images.xcassets */; };
+		2C8DE59F18C21E7E002DA0D9 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DE59A18C21E7E002DA0D9 /* ApplicationDelegate.m */; };
+		2C8DE5A018C21E7E002DA0D9 /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DE59C18C21E7E002DA0D9 /* MenubarController.m */; };
+		2C8DE5A118C21E7E002DA0D9 /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DE59E18C21E7E002DA0D9 /* PanelController.m */; };
+		2C8DE5A818C21EA4002DA0D9 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DE5A418C21EA4002DA0D9 /* BackgroundView.m */; };
+		2C8DE5A918C21EA4002DA0D9 /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DE5A518C21EA4002DA0D9 /* Panel.m */; };
+		2C8DE5AA18C21EA4002DA0D9 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DE5A718C21EA4002DA0D9 /* StatusItemView.m */; };
+		2C8DE5AD18C21ED3002DA0D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DE5AB18C21ED3002DA0D9 /* main.m */; };
+		2C8DE5B418C21F00002DA0D9 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DE5B018C21F00002DA0D9 /* Status.png */; };
+		2C8DE5B518C21F00002DA0D9 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DE5B118C21F00002DA0D9 /* Status@2x.png */; };
+		2C8DE5B618C21F00002DA0D9 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DE5B218C21F00002DA0D9 /* StatusHighlighted.png */; };
+		2C8DE5B718C21F00002DA0D9 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DE5B318C21F00002DA0D9 /* StatusHighlighted@2x.png */; };
+		2C8DE5C018C21F5A002DA0D9 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DE5BF18C21F5A002DA0D9 /* Panel.xib */; };
+		2C8DE5C318C21F64002DA0D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DE5C118C21F64002DA0D9 /* MainMenu.xib */; };
+		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C10F7B618C37F5C00091A79 /* Edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Edit.png; path = PassSearch/Edit.png; sourceTree = "<group>"; };
+		2C10F7B718C37F5C00091A79 /* Edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Edit@2x.png"; path = "PassSearch/Edit@2x.png"; sourceTree = "<group>"; };
+		2C10F7C218C3918E00091A79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PassSearch/Images.xcassets; sourceTree = "<group>"; };
+		2C8DE59918C21E7E002DA0D9 /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationDelegate.h; path = PassSearch/ApplicationDelegate.h; sourceTree = SOURCE_ROOT; };
+		2C8DE59A18C21E7E002DA0D9 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationDelegate.m; path = PassSearch/ApplicationDelegate.m; sourceTree = SOURCE_ROOT; };
+		2C8DE59B18C21E7E002DA0D9 /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenubarController.h; path = PassSearch/MenubarController.h; sourceTree = SOURCE_ROOT; };
+		2C8DE59C18C21E7E002DA0D9 /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenubarController.m; path = PassSearch/MenubarController.m; sourceTree = SOURCE_ROOT; };
+		2C8DE59D18C21E7E002DA0D9 /* PanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanelController.h; path = PassSearch/PanelController.h; sourceTree = SOURCE_ROOT; };
+		2C8DE59E18C21E7E002DA0D9 /* PanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanelController.m; path = PassSearch/PanelController.m; sourceTree = SOURCE_ROOT; };
+		2C8DE5A218C21E8C002DA0D9 /* Panel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Panel.h; path = PassSearch/Panel.h; sourceTree = SOURCE_ROOT; };
+		2C8DE5A318C21EA4002DA0D9 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundView.h; path = PassSearch/BackgroundView.h; sourceTree = SOURCE_ROOT; };
+		2C8DE5A418C21EA4002DA0D9 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundView.m; path = PassSearch/BackgroundView.m; sourceTree = SOURCE_ROOT; };
+		2C8DE5A518C21EA4002DA0D9 /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Panel.m; path = PassSearch/Panel.m; sourceTree = SOURCE_ROOT; };
+		2C8DE5A618C21EA4002DA0D9 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusItemView.h; path = PassSearch/StatusItemView.h; sourceTree = SOURCE_ROOT; };
+		2C8DE5A718C21EA4002DA0D9 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusItemView.m; path = PassSearch/StatusItemView.m; sourceTree = SOURCE_ROOT; };
+		2C8DE5AB18C21ED3002DA0D9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PassSearch/main.m; sourceTree = SOURCE_ROOT; };
+		2C8DE5AC18C21ED3002DA0D9 /* PassSearch-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PassSearch-Prefix.pch"; path = "PassSearch/PassSearch-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		2C8DE5B018C21F00002DA0D9 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Status.png; path = PassSearch/Status.png; sourceTree = "<group>"; };
+		2C8DE5B118C21F00002DA0D9 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "PassSearch/Status@2x.png"; sourceTree = "<group>"; };
+		2C8DE5B218C21F00002DA0D9 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusHighlighted.png; path = PassSearch/StatusHighlighted.png; sourceTree = "<group>"; };
+		2C8DE5B318C21F00002DA0D9 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "PassSearch/StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+		2C8DE5BF18C21F5A002DA0D9 /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Panel.xib; path = PassSearch/Panel.xib; sourceTree = "<group>"; };
+		2C8DE5C218C21F64002DA0D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = PassSearch/en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2C8DE5C818C2212F002DA0D9 /* PassSearch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PassSearch-Info.plist"; path = "PassSearch/PassSearch-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DD4F7C0413C30F9F00825C6E /* PassSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DD4F7C0C13C30F9F00825C6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DD4F7C0D13C30F9F00825C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4F7C0113C30F9F00825C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8DE5BE18C21F4F002DA0D9 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				2C8DE5C118C21F64002DA0D9 /* MainMenu.xib */,
+				2C8DE5BF18C21F5A002DA0D9 /* Panel.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		DD4F7BF913C30F9F00825C6E = {
+			isa = PBXGroup;
+			children = (
+				2C10F7C218C3918E00091A79 /* Images.xcassets */,
+				DD4F7C0713C30F9F00825C6E /* Frameworks */,
+				DD4F7C0513C30F9F00825C6E /* Products */,
+				DD4F7C0E13C30F9F00825C6E /* Sources */,
+				DD4F7C2813C3123E00825C6E /* User Interface */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4F7C0513C30F9F00825C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C0413C30F9F00825C6E /* PassSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4F7C0713C30F9F00825C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C0B13C30F9F00825C6E /* AppKit.framework */,
+				DD4F7C0C13C30F9F00825C6E /* CoreData.framework */,
+				DD4F7C0D13C30F9F00825C6E /* Foundation.framework */,
+				DD4F7C0813C30F9F00825C6E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD4F7C0E13C30F9F00825C6E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F7C2613C311DF00825C6E /* Controllers */,
+				DD4F7C3913C317EC00825C6E /* Views */,
+				DD4F7C0F13C30F9F00825C6E /* Supporting Files */,
+			);
+			name = Sources;
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		DD4F7C0F13C30F9F00825C6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8DE5C818C2212F002DA0D9 /* PassSearch-Info.plist */,
+				2C8DE5AB18C21ED3002DA0D9 /* main.m */,
+				2C8DE5AC18C21ED3002DA0D9 /* PassSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD4F7C2613C311DF00825C6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C8DE59918C21E7E002DA0D9 /* ApplicationDelegate.h */,
+				2C8DE59A18C21E7E002DA0D9 /* ApplicationDelegate.m */,
+				2C8DE59B18C21E7E002DA0D9 /* MenubarController.h */,
+				2C8DE59C18C21E7E002DA0D9 /* MenubarController.m */,
+				2C8DE59D18C21E7E002DA0D9 /* PanelController.h */,
+				2C8DE59E18C21E7E002DA0D9 /* PanelController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DD4F7C2813C3123E00825C6E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2C8DE5BE18C21F4F002DA0D9 /* XIBs */,
+				DD4F7C4813C322D800825C6E /* Graphics */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		DD4F7C3913C317EC00825C6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C8DE5A318C21EA4002DA0D9 /* BackgroundView.h */,
+				2C8DE5A418C21EA4002DA0D9 /* BackgroundView.m */,
+				2C8DE5A218C21E8C002DA0D9 /* Panel.h */,
+				2C8DE5A518C21EA4002DA0D9 /* Panel.m */,
+				2C8DE5A618C21EA4002DA0D9 /* StatusItemView.h */,
+				2C8DE5A718C21EA4002DA0D9 /* StatusItemView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DD4F7C4813C322D800825C6E /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				2C10F7B618C37F5C00091A79 /* Edit.png */,
+				2C10F7B718C37F5C00091A79 /* Edit@2x.png */,
+				2C8DE5B018C21F00002DA0D9 /* Status.png */,
+				2C8DE5B118C21F00002DA0D9 /* Status@2x.png */,
+				2C8DE5B218C21F00002DA0D9 /* StatusHighlighted.png */,
+				2C8DE5B318C21F00002DA0D9 /* StatusHighlighted@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4F7C0313C30F9F00825C6E /* PassSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "PassSearch" */;
+			buildPhases = (
+				DD4F7C0013C30F9F00825C6E /* Sources */,
+				DD4F7C0113C30F9F00825C6E /* Frameworks */,
+				DD4F7C0213C30F9F00825C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassSearch;
+			productName = Popup;
+			productReference = DD4F7C0413C30F9F00825C6E /* PassSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4F7BFB13C30F9F00825C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "PassSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD4F7BF913C30F9F00825C6E;
+			productRefGroup = DD4F7C0513C30F9F00825C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4F7C0313C30F9F00825C6E /* PassSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4F7C0213C30F9F00825C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C10F7C318C3918E00091A79 /* Images.xcassets in Resources */,
+				2C8DE5C018C21F5A002DA0D9 /* Panel.xib in Resources */,
+				2C8DE5B418C21F00002DA0D9 /* Status.png in Resources */,
+				2C8DE5B518C21F00002DA0D9 /* Status@2x.png in Resources */,
+				2C8DE5B718C21F00002DA0D9 /* StatusHighlighted@2x.png in Resources */,
+				2C10F7B818C37F5C00091A79 /* Edit.png in Resources */,
+				2C8DE5B618C21F00002DA0D9 /* StatusHighlighted.png in Resources */,
+				2C10F7B918C37F5C00091A79 /* Edit@2x.png in Resources */,
+				2C8DE5C318C21F64002DA0D9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4F7C0013C30F9F00825C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8DE5A018C21E7E002DA0D9 /* MenubarController.m in Sources */,
+				2C8DE5AA18C21EA4002DA0D9 /* StatusItemView.m in Sources */,
+				2C8DE5A918C21EA4002DA0D9 /* Panel.m in Sources */,
+				2C8DE5A118C21E7E002DA0D9 /* PanelController.m in Sources */,
+				2C8DE5A818C21EA4002DA0D9 /* BackgroundView.m in Sources */,
+				2C8DE5AD18C21ED3002DA0D9 /* main.m in Sources */,
+				2C8DE59F18C21E7E002DA0D9 /* ApplicationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C8DE5C118C21F64002DA0D9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8DE5C218C21F64002DA0D9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD4F7C2013C30F9F00825C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD4F7C2113C30F9F00825C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD4F7C2313C30F9F00825C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassSearch/PassSearch-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PassSearch/PassSearch-Info.plist";
+				PRODUCT_NAME = PassSearch;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD4F7C2413C30F9F00825C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassSearch/PassSearch-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PassSearch/PassSearch-Info.plist";
+				PRODUCT_NAME = PassSearch;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4F7BFE13C30F9F00825C6E /* Build configuration list for PBXProject "PassSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4F7C2013C30F9F00825C6E /* Debug */,
+				DD4F7C2113C30F9F00825C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "PassSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4F7C2313C30F9F00825C6E /* Debug */,
+				DD4F7C2413C30F9F00825C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD4F7BFB13C30F9F00825C6E /* Project object */;
+}
